@@ -1,18 +1,24 @@
 h1 {
-
+  color: black;
 }
-h2 {
 
-}
+h2 {}
 
 .group {
 
 }
 
 .quote {
+  font-size: 2em;
 
+  text-align: center;
+  color: charcoal;
 }
 
 .author {
-
+  text-align: center;
+  font-size: 1.9em;
+  font-style: italic;
 }
+
+
