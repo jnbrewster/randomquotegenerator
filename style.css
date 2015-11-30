@@ -1,8 +1,19 @@
-h1 {
-  color: black;
+
+body {
+  background-color: #444;
+  padding-left: 10px;
 }
 
-h2 {}
+div {
+  color: orange;
+}
+h1 {
+  color: orange;
+}
+
+h2 {
+  color: green;
+}
 
 .group {
 
@@ -10,15 +21,16 @@ h2 {}
 
 .quote {
   font-size: 2em;
-
-  text-align: center;
-  color: charcoal;
+  color: red;
 }
 
 .author {
-  text-align: center;
   font-size: 1.9em;
   font-style: italic;
+  color: blue;
 }
 
+.btn {
+
+}
 
