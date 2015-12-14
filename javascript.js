@@ -1,8 +1,21 @@
 $(document).ready(function() {
 
     function getQuote() {
-        var quotes = ["Oooooooh!", "Podo!", "Dohdoh!", "Gyul!", "Dada!", "Mama!", "Omma!"];
-        var authors = ["-Leon", "-Leon", "-Leon", "-Leon", "-Leon", "-Leon", "-Leon"];
+        var quotes = ["Oooooooh!",
+                      "Podo!",
+                      "Dohdoh!",
+                      "Gyul!",
+                      "Dada!",
+                      "Mama!",
+                      "Omma!"];
+
+        var authors = ["-Leon",
+                       "-Leon",
+                       "-Leon",
+                       "-Leon",
+                       "-Leon",
+                       "-Leon",
+                       "-Leon"];
 
         var randomNum = Math.floor(Math.random()*quotes.length);
 
@@ -11,11 +24,11 @@ $(document).ready(function() {
 
         $('.quote').text(randomQuote);
         $('.author').text(corresAuthor);
-
       }
-
     $(".btn").on("click", function() {
     getQuote();
     });
 });
+
+
 
