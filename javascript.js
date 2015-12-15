@@ -1,34 +1,31 @@
 $(document).ready(function() {
 
-    function getQuote() {
-        var quotes = ["Oooooooh!",
-                      "Podo!",
-                      "Dohdoh!",
-                      "Gyul!",
-                      "Dada!",
-                      "Mama!",
-                      "Omma!"];
+  function getQuote() {
+    var quotes = ["Oooh!",
+                  "Podo!",
+                  "Dohdoh!",
+                  "Gyul!",
+                  "Dada!",
+                  "Mama!",
+                  "Omma!"];
 
-        var authors = ["-Leon",
-                       "-Leon",
-                       "-Leon",
-                       "-Leon",
-                       "-Leon",
-                       "-Leon",
-                       "-Leon"];
+    var authors = ["-Leon",
+                   "-Leon",
+                   "-Leon",
+                   "-Leon",
+                   "-Leon",
+                   "-Leon",
+                   "-Leon"];
 
-        var randomNum = Math.floor(Math.random()*quotes.length);
+   var randomNum = Math.floor(Math.random()*quotes.length);
 
-        var randomQuote = quotes[randomNum];
-        var corresAuthor = authors[randomNum];
+   var randomQuote = quotes[randomNum];
+   var corresAuthor = authors[randomNum];
 
-        $('.quote').text(randomQuote);
-        $('.author').text(corresAuthor);
-      }
-    $(".btn").on("click", function() {
+   $('.quote').text(randomQuote);
+   $('.author').text(corresAuthor);
+  }
+  $(".btn").on("click", function() {
     getQuote();
-    });
+  });
 });
-
-
-

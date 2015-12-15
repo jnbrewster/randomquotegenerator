@@ -1,4 +1,3 @@
-
 body {
   font-family: monospace;
   background-color: #FFF;
@@ -16,6 +15,10 @@ h2 {
   color: black;
 }
 
+.instructions {
+  font-style: italic;
+}
+
 .group {
 
 }
@@ -23,6 +26,7 @@ h2 {
 .quotes {
   padding-top: 10px;
 }
+
 .quote {
   font-size: 3em;
   color: black;
